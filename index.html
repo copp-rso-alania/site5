@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Хужамкулов Тимур</title>
+</head>
+
+<style>
+	body{
+		margin: 0;
+		/*height: 100vh;*/
+		background: url(site2.jpg) center center no-repeat;
+		background-size: cover;
+		color: white;
+		min-height: 100%;
+		min-width: 600px;
+	}
+
+	h1{
+		text-align: center;
+		font-size: 60px;
+		color: white;
+		margin-bottom: 0px;
+	}
+
+	.container{
+		padding: 0px 20px;
+		/*max-width: 1000px;*/
+		margin: 0 10px;
+	}
+
+	.pah{
+		text-align: center;
+		font-size: 35px;
+		font-weight: normal;
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+
+	.anim{
+		width: 500px;
+		height: 500px;
+		background-color: white;
+		border-radius: 50%;
+		animation-name: ball;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+		/*animation-delay: 3s;*/
+		position: absolute;
+		left: 50%;
+		top: 0%;
+		transform: translateX(-50%);
+		background-color:  #3A3086;
+	}
+
+	@keyframes ball{
+		0%{
+			
+			width: 500px;
+			height: 500px;
+		}
+
+
+		50%{
+			width: 200px;
+			height: 200px;
+			top: 50%;
+			transform: translateY(-50%) translateX(-50%);
+			background-color: transparent;
+		}
+
+
+		100%{
+			width: 500px;
+			height: 500px;
+		}
+
+	}
+
+	.image{
+		text-align: center;
+		position: relative;
+	}
+
+	.image img{
+		max-width: 500px;
+		max-height: 500px;
+	}
+
+	.desc p{
+		font-size: 25px;
+	}
+
+
+	.ulik{
+		list-style-type: square;
+		font-size: 20px;
+	}
+
+	.ulik li{
+		margin-bottom: 12px;
+	}
+
+	.centr{
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		row-gap: 2em;
+	}
+
+	.desc{
+		flex-basis: 700px;
+	}
+
+
+</style>
+
+<body>
+	<div class="container">
+		<h1>
+			Хужамкулов Тимур	
+		</h1>
+
+		<h2 class="pah">Добро пожаловать на мою страницу.</h2>
+
+		<div class="centr">
+
+			<div class="image">
+				<img src="cdo.jpg" alt="">
+
+				<div class="anim">
+			
+				</div>
+			</div>
+
+			<div class="desc">
+				<p style="margin-top: 0px;">
+					«Центр дополнительного образования города Владикавказа» был создан 25 декабря 2020 года. В состав Центра входит 7 учреждений дополнительного образования:
+				</p>
+
+				<ul class="ulik">
+					<li>«Центр развития творчества одаренных детей и юношества «Интеллект»</li>
+					<li>«Центр развития творчества детей и юношества «Нарт»</li>
+					<li>«Центр развития творчества и гуманитарного образования «Прометей»</li>
+					<li>«Центр эстетического воспитания детей «Творчество»</li>
+					<li>«Центр психолого-педагогической, медицинской и социальной помощи центр диагностики и консультирования «Доверие»</li>
+					<li>«Школа детского творчества»</li>
+					<li>«Детская школа танца «Владикавказские аланы»</li>
+				</ul>
+
+				<p>
+					«Центр дополнительного образования города Владикавказа» является многопрофильным учреждением, осуществляющим образовательную деятельность в соответствии с направленностью каждого из структурных подразделений, входящих в его структуру.
+				</p>
+
+				
+
+				
+			</div>
+
+
+		</div>
+
+
+		<div class="desc">
+			<p>Основной целью деятельности Центра является осуществление образовательной деятельности по дополнительным общеобразовательным программам различной направленности:</p>
+
+
+				<ul class="ulik">
+					<li>технической</li>
+					<li>естественно-научной</li>
+					<li>физкультурно-спортивной</li>
+					<li>художественной</li>
+					<li>туристско-краеведческой</li>
+					<li>социально-гуманитарной</li>
+					<li>психолого-педагогической</li>
+				</ul>
+		</div>
+
+
+	</div>	
+</body>
+
+
+</html>
